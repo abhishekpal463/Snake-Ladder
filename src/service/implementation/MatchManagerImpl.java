@@ -63,7 +63,6 @@ public class MatchManagerImpl implements MatchManager {
         for(Ladder ladder:ladders){
             if(ladder.getStart()==position){
                 position=ladder.getEnd();
-                System.out.println("Hhhhhhhhhhhhhhhh Ladder the game");
                 break;
             }
         }
@@ -74,7 +73,6 @@ public class MatchManagerImpl implements MatchManager {
         for(Snake snake:snakes){
             if(snake.getStart()==position){
                 position=snake.getEnd();
-                System.out.println("Hhhhhhhhhhhhhhhh snake the game");
                 break;
             }
         }
