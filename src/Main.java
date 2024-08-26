@@ -33,7 +33,7 @@ public class Main {
             String name = sc.next();
 
             Player p = new Player(name);
-            Map.Entry mp = new AbstractMap.SimpleEntry(p,0);
+            Map.Entry<Player,Integer> mp = new AbstractMap.SimpleEntry(p,0);
             players.put(name,mp);
         }
 
